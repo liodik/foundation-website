@@ -13,7 +13,7 @@
     margin: 0 45px;
     max-width: 200px;
     @include for-large-up {
-      margin: 73px 122px 72px 224px;
+      margin: 73px 122px 72px 225px;
       max-width: 270px;
     }
   }
@@ -22,14 +22,13 @@
     font-size: 40px;
     line-height: 40px;
     text-align: center;
-    // width: 100%;
     letter-spacing: -0.25px;
     margin: 0;
     margin-top: 40px;
     @include for-large-up {
       text-align: left;
       margin: 0;
-      margin-top: 106px;
+      margin-top: 126px;
     }
   }
   &__text {

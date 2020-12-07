@@ -426,7 +426,7 @@ html {
     max-width: 200px; }
     @media screen and (min-width: 321px) {
       .order__illustration {
-        margin: 73px 122px 72px 224px;
+        margin: 73px 122px 72px 225px;
         max-width: 270px; } }
   .order__title {
     font-weight: 700;
@@ -440,7 +440,7 @@ html {
       .order__title {
         text-align: left;
         margin: 0;
-        margin-top: 106px; } }
+        margin-top: 126px; } }
   .order__text {
     height: 167px;
     font-size: 22px;
