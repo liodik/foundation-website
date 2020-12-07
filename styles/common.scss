@@ -15,21 +15,10 @@ html {
 }
 
 .top-section {
-  background-color: #f9d9eb;
+  background-color: #f3c6bd;
   padding-top: 39px;
   @include for-small-up {
     overflow-x: hidden;
     padding: 0;
   }
-}
-.action__button {
-  width: 160px;
-  height: 48px;
-  font-size: 18px;
-  font-weight: 700;
-  border-radius: 2px;
-  border: none;
-  padding: 17px 28px 18px;
-  background-color: #3040c4;
-  color: #ffffff;
 }
