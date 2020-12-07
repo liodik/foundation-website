@@ -18,7 +18,6 @@ html {
   background-color: #f3c6bd;
   padding-top: 39px;
   @include for-small-up {
-    overflow-x: hidden;
     padding: 0;
   }
 }

@@ -259,7 +259,6 @@ html {
   padding-top: 39px; }
   @media screen and (max-width: 320px) {
     .top-section {
-      overflow-x: hidden;
       padding: 0; } }
 
 .audience {
@@ -470,7 +469,7 @@ html {
   max-width: 320px;
   padding: 50px 15px;
   background-color: #f4f5f7; }
-  @media screen and (min-width: 321px) {
+  @media screen and (min-width: 320px) {
     .order {
       max-width: 1400px;
       flex-direction: row;
@@ -478,7 +477,7 @@ html {
   .order__illustration {
     margin: 0 45px;
     max-width: 200px; }
-    @media screen and (min-width: 321px) {
+    @media screen and (min-width: 320px) {
       .order__illustration {
         margin: 73px 122px 72px 224px;
         max-width: 270px; } }
@@ -490,7 +489,7 @@ html {
     letter-spacing: -0.25px;
     margin: 0;
     margin-top: 40px; }
-    @media screen and (min-width: 321px) {
+    @media screen and (min-width: 320px) {
       .order__title {
         text-align: left;
         margin: 0;
@@ -502,7 +501,7 @@ html {
     color: #2b292d;
     margin: 0;
     margin-top: 18px; }
-    @media screen and (min-width: 321px) {
+    @media screen and (min-width: 320px) {
       .order__text {
         height: 64px;
         margin-top: 12px;
@@ -517,7 +516,7 @@ html {
     text-align: center;
     font-size: 18px;
     color: #2b292d; }
-    @media screen and (min-width: 321px) {
+    @media screen and (min-width: 320px) {
       .order__email {
         width: 385px;
         margin: 0 10px 0 0; } }
@@ -534,7 +533,7 @@ html {
     font-weight: 700;
     text-align: center;
     color: #ffffff; }
-    @media screen and (min-width: 321px) {
+    @media screen and (min-width: 320px) {
       .order__button {
         width: 160px; } }
   .order__terms {
@@ -546,7 +545,7 @@ html {
 .order-content {
   display: flex;
   flex-direction: column; }
-  @media screen and (min-width: 321px) {
+  @media screen and (min-width: 320px) {
     .order-content {
       width: 555px;
       margin: 0 228px 105px 0; } }
@@ -554,7 +553,7 @@ html {
 .order-form {
   display: flex;
   flex-direction: column; }
-  @media screen and (min-width: 321px) {
+  @media screen and (min-width: 320px) {
     .order-form {
       flex-direction: row; } }
 
