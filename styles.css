@@ -99,12 +99,12 @@
 
 .action__button {
   width: 160px;
-  height: 48px;
+  line-height: 48px;
   font-size: 18px;
   font-weight: 700;
   border-radius: 2px;
   border: none;
-  padding: 17px 28px 18px;
+  text-align: center;
   background-color: #3040c4;
   color: #ffffff; }
 
@@ -434,10 +434,11 @@ html {
       padding: 0; } }
   .order__illustration {
     margin: 0 45px;
-    max-height: 220px; }
+    max-width: 200px; }
     @media screen and (min-width: 321px) {
       .order__illustration {
-        margin: 73px 122px 72px 224px; } }
+        margin: 73px 122px 72px 224px;
+        max-width: 100%; } }
   .order__title {
     font-weight: 700;
     font-size: 40px;
