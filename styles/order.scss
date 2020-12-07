@@ -14,7 +14,7 @@
     max-width: 200px;
     @include for-large-up {
       margin: 73px 122px 72px 224px;
-      max-width: 269px;
+      max-width: 270px;
     }
   }
   &__title {
@@ -29,6 +29,7 @@
     @include for-large-up {
       text-align: left;
       margin: 0;
+      margin-top: 106px;
     }
   }
   &__text {
@@ -94,7 +95,7 @@
   flex-direction: column;
   @include for-large-up {
     width: 555px;
-    margin: 106px 228px 105px 0;
+    margin: 0 228px 105px 0;
   }
 }
 .order-form {

@@ -427,7 +427,7 @@ html {
     @media screen and (min-width: 321px) {
       .order__illustration {
         margin: 73px 122px 72px 224px;
-        max-width: 269px; } }
+        max-width: 270px; } }
   .order__title {
     font-weight: 700;
     font-size: 40px;
@@ -439,7 +439,8 @@ html {
     @media screen and (min-width: 321px) {
       .order__title {
         text-align: left;
-        margin: 0; } }
+        margin: 0;
+        margin-top: 106px; } }
   .order__text {
     height: 167px;
     font-size: 22px;
@@ -494,7 +495,7 @@ html {
   @media screen and (min-width: 321px) {
     .order-content {
       width: 555px;
-      margin: 106px 228px 105px 0; } }
+      margin: 0 228px 105px 0; } }
 
 .order-form {
   display: flex;
