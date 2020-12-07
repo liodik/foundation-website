@@ -1,0 +1,35 @@
+html {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  color: #2b292d;
+}
+.page {
+  width: 1400px;
+  margin: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  @include for-small-up {
+    width: 100%;
+  }
+}
+
+.top-section {
+  background-color: #f9d9eb;
+  padding-top: 39px;
+  @include for-small-up {
+    overflow-x: hidden;
+    padding: 0;
+  }
+}
+.action__button {
+  width: 160px;
+  height: 48px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 2px;
+  border: none;
+  padding: 17px 28px 18px;
+  background-color: #3040c4;
+  color: #ffffff;
+}

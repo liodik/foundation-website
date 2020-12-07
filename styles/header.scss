@@ -1,0 +1,121 @@
+.header {
+  width: 1140px;
+  height: 62px;
+  margin: auto;
+  display: flex;
+  @include for-small-up {
+    width: 100%;
+    height: 64px;
+    display: flex;
+    background-color: #ffffff;
+  }
+  &__button {
+    @include for-small-up {
+      display: none;
+    }
+  }
+}
+.header-menu {
+  display: none;
+  @include for-small-up {
+    display: block;
+    margin-left: auto;
+    width: 58px;
+    height: 100%;
+    padding: 0;
+    border: none;
+    border-left: 1px solid #00000026;
+    background-color: transparent;
+  }
+  &__icon {
+    @include for-small-up {
+      background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png);
+      width: 18px;
+      height: 13px;
+      display: inline-block;
+      align-content: center;
+    }
+  }
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 273px;
+  margin-left: auto;
+  margin-top: 7px;
+  @include for-small-up {
+    display: none;
+  }
+  &__item {
+    color: #2b292d;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: none;
+  }
+  &__item_selected {
+    font-weight: 700;
+  }
+  &__arrow {
+    display: inline-block;
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
+    width: 8px;
+    height: 5px;
+    margin-left: 11px;
+    margin-right: 56px;
+    margin-top: 19px;
+    @include for-small-up {
+      display: none;
+    }
+  }
+}
+
+.logo {
+  display: flex;
+  @include for-small-up {
+    align-items: center;
+  }
+  &__img {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+    @include for-small-up {
+      margin-right: 13px;
+      width: 48px;
+      height: 48px;
+      margin-left: 15px;
+    }
+  }
+  &__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  &__name {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+  }
+
+  &__description {
+    font-size: 18;
+    line-height: 25px;
+    color: #2b292d;
+    opacity: 0.6;
+    @include for-small-up {
+      display: none;
+    }
+  }
+}
+
+.action__button {
+  width: 160px;
+  height: 48px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 2px;
+  border: none;
+  padding: 17px 28px 18px;
+  background-color: #3040c4;
+  color: #ffffff;
+}

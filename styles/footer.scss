@@ -1,0 +1,242 @@
+.footer {
+  margin-top: auto;
+  display: flex;
+  margin-top: auto;
+  margin-bottom: 0;
+  flex-direction: column;
+}
+.footer-navigation {
+  height: 338px;
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  @include for-small-up {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+}
+.about-company {
+  width: 360px;
+  margin-top: 48px;
+  margin-bottom: 84px;
+  margin-right: 126px;
+  @include for-small-up {
+    margin: 0;
+    padding-bottom: 41px;
+    border-bottom: 1px solid #e3e3e3;
+  }
+  &__text {
+    height: 85px;
+    font-size: 18px;
+    color: #2b292d;
+    opacity: 0.6;
+    line-height: 26px;
+    margin: 0;
+    margin-bottom: 25px;
+    @include for-small-up {
+      display: none;
+    }
+  }
+}
+
+.download {
+  height: 40px;
+  @include for-small-up {
+    text-align: center;
+    margin-top: 31px;
+  }
+  &__apple-app {
+    width: 135px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  &__android-app {
+    width: 116px;
+    height: 40px;
+  }
+}
+
+.additional-navigation {
+  width: 559px;
+  height: 231;
+  margin-top: 60px;
+  display: flex;
+  @include for-small-up {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  &__subtitle {
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 700px;
+    color: #2b292d;
+    margin-bottom: 18px;
+    margin-top: 0;
+  }
+}
+.additional-navigation-company {
+  margin-left: 29px;
+}
+.additional-navigation-product,
+.additional-navigation-company {
+  width: 265px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 47px;
+  @include for-small-up {
+    padding-left: 15px;
+    margin: 0;
+    margin-top: 30px;
+  }
+}
+
+.additional-navigation-product__item,
+.additional-navigation-company__item {
+  font-size: 18px;
+  color: #2b292d;
+  opacity: 0.6;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+.footer-logo {
+  display: flex;
+  margin-top: 43px;
+  margin-bottom: 26px;
+  @include for-small-up {
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    margin-top: 40px;
+  }
+  &__img {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+    @include for-small-up {
+      margin: 0;
+    }
+  }
+  &__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    @include for-small-up {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      margin-top: 20px;
+    }
+  }
+  &__name {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+  }
+
+  &__description {
+    font-size: 18;
+    line-height: 25px;
+    color: #2b292d;
+    opacity: 0.6;
+  }
+}
+
+.footer-links {
+  width: 1140px;
+  height: 50px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  @include for-small-up {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: baseline;
+    margin: 30px 125px 22px 15px;
+  }
+}
+
+.footer__line {
+  border-bottom: 1px solid #2b292d;
+  width: 100%;
+  opacity: 0.1;
+  margin: 0;
+  @include for-small-up {
+    display: none;
+  }
+}
+
+.terms__item {
+  line-height: 50px;
+  text-decoration: none;
+  color: #2b292d;
+  opacity: 0.6;
+  font-size: 14px;
+  margin-right: 20px;
+  @include for-small-up {
+    line-height: 22px;
+  }
+}
+.social-links {
+  margin-left: auto;
+  @include for-small-up {
+    margin-left: 0;
+    margin-top: 31px;
+  }
+  &__item {
+    margin-left: 20px;
+    @include for-small-up {
+      margin: 0;
+      margin-right: 20px;
+    }
+  }
+  &__item-twitter {
+    width: 21px;
+    height: 16px;
+  }
+  &__item-facebook,
+  &__item-linkedin {
+    width: 18;
+    height: 17px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__line {
+  }
+  .footer-navigation {
+  }
+  .about-company {
+  }
+  .footer-logo {
+  }
+  .footer-logo__img {
+  }
+  .footer-logo__text {
+  }
+
+  .about-company__text {
+  }
+  .download {
+  }
+  .additional-navigation {
+  }
+  .additional-navigation-product,
+  .additional-navigation-company {
+  }
+  .footer-links {
+  }
+  .social-links {
+  }
+
+  .social-links__item {
+  }
+  .terms__item {
+  }
+}
