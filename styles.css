@@ -217,6 +217,10 @@
         display: flex;
         flex-direction: column;
         margin: 0; } }
+    @media screen and (min-width: 320px) {
+      .headline__actions {
+        margin: 0;
+        justify-content: center; } }
   @media screen and (max-width: 320px) {
     .headline__actions-btn {
       margin: 0;
@@ -260,60 +264,6 @@ html {
   @media screen and (max-width: 320px) {
     .top-section {
       padding: 0; } }
-
-.audience {
-  padding: 50px 15px;
-  background-color: #00a1c612; }
-  .audience__subtitle {
-    margin: 0;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 34px;
-    text-align: center; }
-  .audience__title {
-    margin-top: 17px;
-    margin-bottom: 0;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 40px;
-    text-align: center;
-    letter-spacing: -0.357143px; }
-  .audience__text {
-    margin-top: 18px;
-    margin-bottom: 30px;
-    font-size: 24px;
-    line-height: 34px;
-    text-align: center; }
-  .audience__learn-more-btn {
-    margin-top: 12px; }
-
-.audience-img {
-  display: flex;
-  flex-direction: column;
-  margin-top: 40px; }
-  .audience-img__item {
-    width: 290px;
-    height: 300px;
-    background-color: #ffffff;
-    margin: 0;
-    margin-bottom: 15px;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1.0e-05) 100%), #ffffff;
-    background-blend-mode: overlay, normal;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
-    border-radius: 8px; }
-  .audience-img__item-text {
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 28px;
-    text-align: center; }
-  .audience-img__item-dev {
-    padding: 22px 76px; }
-  .audience-img__item-entert {
-    padding: 22px 74px; }
-  .audience-img__item-athl {
-    padding: 22px 65px; }
-  .audience-img__item-creat {
-    padding: 22px 100px 22px 71px; }
 
 .customers {
   width: 1140px;
@@ -745,5 +695,91 @@ html {
   .social-links__item-facebook, .social-links__item-linkedin {
     width: 18;
     height: 17px; }
+
+.audience {
+  padding: 50px 15px;
+  background-color: #00a1c612; }
+  .audience__subtitle {
+    margin: 0;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 34px;
+    text-align: center; }
+    @media screen and (min-width: 320px) {
+      .audience__subtitle {
+        margin-top: 58px;
+        margin-bottom: 24px; } }
+  .audience__title {
+    margin-top: 17px;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.357143px; }
+    @media screen and (min-width: 320px) {
+      .audience__title {
+        width: 555px;
+        font-size: 56px;
+        line-height: 56px;
+        letter-spacing: -0.5px;
+        margin: auto; } }
+  .audience__text {
+    margin-top: 18px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center; }
+    @media screen and (min-width: 320px) {
+      .audience__text {
+        width: 555px;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 34px; } }
+  .audience__learn-more-btn {
+    margin-top: 12px; }
+    @media screen and (min-width: 320px) {
+      .audience__learn-more-btn {
+        margin: 0;
+        margin-left: 10px; } }
+
+.action__button {
+  height: 48px; }
+
+.audience-img {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px; }
+  @media screen and (min-width: 320px) {
+    .audience-img {
+      flex-direction: row;
+      margin: 111px 131px 110px 130px;
+      justify-content: space-between; } }
+  .audience-img__item {
+    width: 290px;
+    height: 300px;
+    background-color: #ffffff;
+    margin: 0;
+    margin-bottom: 15px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1.0e-05) 100%), #ffffff;
+    background-blend-mode: overlay, normal;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+    border-radius: 8px; }
+    @media screen and (min-width: 320px) {
+      .audience-img__item {
+        width: 262px; } }
+  .audience-img__item-text {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center; }
+  .audience-img__item-dev {
+    padding: 22px 76px; }
+  .audience-img__item-entert {
+    padding: 22px 74px; }
+  .audience-img__item-athl {
+    padding: 22px 65px; }
+  .audience-img__item-creat {
+    padding: 22px 100px 22px 71px; }
 
 /*# sourceMappingURL=styles.css.map */
