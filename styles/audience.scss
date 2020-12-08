@@ -38,7 +38,7 @@
     margin-top: 18px;
     margin-bottom: 30px;
     font-size: 24px;
-    line-height: 34px;
+    line-height: 32px;
     text-align: center;
     @include for-large-up {
       width: 555px;
@@ -68,8 +68,9 @@
   flex-direction: column;
   margin-top: 40px;
   @include for-large-up {
+    width: 1139px;
     flex-direction: row;
-    margin: 111px 131px 110px 130px;
+    margin: 111px auto 110px auto;
     justify-content: space-between;
   }
   &__item {
@@ -90,6 +91,7 @@
     border-radius: 8px;
     @include for-large-up {
       width: 262px;
+      height: 300px;
     }
   }
   &__item-text {
