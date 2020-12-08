@@ -785,4 +785,7 @@ html {
   .audience-img__item-creat {
     padding: 22px 100px 22px 71px; }
 
+.user-card:hover {
+  background-color: #3141c5; }
+
 /*# sourceMappingURL=styles.css.map */
