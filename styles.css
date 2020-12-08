@@ -217,10 +217,6 @@
         display: flex;
         flex-direction: column;
         margin: 0; } }
-    @media screen and (min-width: 320px) {
-      .headline__actions {
-        margin: 0;
-        justify-content: center; } }
   @media screen and (max-width: 320px) {
     .headline__actions-btn {
       margin: 0;
@@ -742,6 +738,9 @@ html {
       .audience__learn-more-btn {
         margin: 0;
         margin-left: 10px; } }
+  @media screen and (min-width: 320px) {
+    .audience__actions {
+      text-align: center; } }
 
 .action__button {
   height: 48px; }

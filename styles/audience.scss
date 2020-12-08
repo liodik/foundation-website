@@ -50,6 +50,11 @@
       margin-left: 10px;
     }
   }
+  &__actions {
+    @include for-large-up {
+      text-align: center;
+    }
+  }
 }
 .action__button {
   height: 48px;
