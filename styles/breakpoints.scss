@@ -1,12 +1,11 @@
-$xs: 320px;
 $xl: 1400px;
 @mixin for-small-up {
-  @media screen and (max-width: 1400px) {
+  @media screen and (max-width: $xl) {
     @content;
   }
 }
 @mixin for-large-up {
-  @media screen and (min-width: 1400px) {
+  @media screen and (min-width: $xl) {
     @content;
   }
 }

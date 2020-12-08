@@ -1,16 +1,33 @@
+@import 'breakpoints.scss';
+
 * {
   box-sizing: border-box;
 }
-@import 'breakpoints.scss';
-@import 'header.scss';
-@import 'about.scss';
-@import 'headline.scss';
-@import 'common.scss';
+html {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  color: #2b292d;
+}
+.page {
+  display: flex;
+  flex-direction: column;
+  width: 1400px;
+  margin: auto;
+  min-height: 100vh;
 
+  @include for-small-up {
+    width: 320px;
+  }
+}
+
+@import 'common.scss';
+@import 'header.scss';
+@import 'headline.scss';
+
+@import 'about.scss';
 @import 'customers.scss';
 @import 'features.scss';
 @import 'tips.scss';
-
 @import 'order.scss';
-@import 'footer.scss';
 @import 'audience.scss';
+@import 'footer.scss';
