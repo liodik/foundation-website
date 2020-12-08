@@ -1,6 +1,10 @@
 .audience {
+  max-width: 320px;
   padding: 50px 15px;
   background-color: #00a1c612;
+  @include for-large-up {
+   max-width: 1400px;
+  }
 
   &__subtitle {
     margin: 0;

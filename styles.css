@@ -160,7 +160,7 @@
     top: -8px; }
     @media screen and (max-width: 1400px) {
       .headline__content {
-        margin: 35px 15px 33px 15px;
+        margin: 0 15px 33px 15px;
         position: static; } }
   .headline__banner {
     position: relative;
@@ -693,8 +693,12 @@ html {
     height: 17px; }
 
 .audience {
+  max-width: 320px;
   padding: 50px 15px;
   background-color: #00a1c612; }
+  @media screen and (min-width: 1400px) {
+    .audience {
+      max-width: 1400px; } }
   .audience__subtitle {
     margin: 0;
     font-weight: 700;
