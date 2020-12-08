@@ -4,6 +4,7 @@
   background-color: #00a1c612;
   @include for-large-up {
     max-width: 1400px;
+    padding-bottom: 95px;
   }
 
   &__subtitle {
@@ -73,6 +74,7 @@
     justify-content: space-between;
     width: 1139px;
     margin: auto;
+    margin-top: 111px;
   }
   &__item {
     width: 290px;

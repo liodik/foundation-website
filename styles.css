@@ -507,7 +507,8 @@ html {
   background-color: #00a1c612; }
   @media screen and (min-width: 1400px) {
     .audience {
-      max-width: 1400px; } }
+      max-width: 1400px;
+      padding-bottom: 95px; } }
   .audience__subtitle {
     font-size: 22px;
     line-height: 34px;
@@ -567,7 +568,8 @@ html {
       flex-direction: row;
       justify-content: space-between;
       width: 1139px;
-      margin: auto; } }
+      margin: auto;
+      margin-top: 111px; } }
   .audience-img__item {
     width: 290px;
     height: 300px;
