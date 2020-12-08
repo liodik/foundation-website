@@ -730,14 +730,14 @@ html {
     margin-top: 18px;
     margin-bottom: 30px;
     font-size: 24px;
-    line-height: 32px;
+    line-height: 34px;
     text-align: center; }
     @media screen and (min-width: 1400px) {
       .audience__text {
         width: 555px;
         margin: auto;
         margin-top: 30px;
-        margin-bottom: 34px; } }
+        margin-bottom: 32px; } }
   .audience__learn-more-btn {
     margin-top: 12px; }
     @media screen and (min-width: 1400px) {
