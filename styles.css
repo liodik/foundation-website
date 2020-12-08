@@ -149,7 +149,7 @@
   padding-bottom: 77px; }
   @media screen and (max-width: 1400px) {
     .headline {
-      width: 100%;
+      max-width: 320px;
       display: flex;
       flex-direction: column;
       margin: 0 0 36px 0;
@@ -252,7 +252,7 @@ html {
   flex-direction: column; }
   @media screen and (max-width: 1400px) {
     .page {
-      width: 100%; } }
+      max-width: 320px; } }
 
 .top-section {
   background-color: #f3c6bd;

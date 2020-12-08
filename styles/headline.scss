@@ -6,7 +6,7 @@
   margin-top: 84px;
   padding-bottom: 77px;
   @include for-small-up {
-    width: 100%;
+    max-width: 320px;
     display: flex;
     flex-direction: column;
     margin: 0 0 36px 0;

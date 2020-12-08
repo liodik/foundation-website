@@ -10,7 +10,7 @@ html {
   display: flex;
   flex-direction: column;
   @include for-small-up {
-    width: 100%;
+    max-width: 320px;
   }
 }
 
