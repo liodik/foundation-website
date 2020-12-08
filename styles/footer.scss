@@ -19,7 +19,7 @@
 }
 .about-company {
   width: 360px;
-  margin-top: 48px;
+  margin-top: 43px;
   margin-bottom: 84px;
   margin-right: 126px;
   @include for-small-up {
@@ -59,10 +59,12 @@
 }
 
 .additional-navigation {
+  display: flex;
   width: 559px;
   height: 231;
-  margin-top: 60px;
-  display: flex;
+  margin-top: 50px;
+  margin-left: 25px;
+
   @include for-small-up {
     flex-direction: column;
     width: 100%;
