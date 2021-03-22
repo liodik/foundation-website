@@ -2,7 +2,7 @@
 
 ### Quick start
 
-[click this link](https://liodik.github.io/HTML-CSS-Project1/)
+[click this link](https://liodik.github.io/foundation-website/)
 
 ##### The teach task is:
 
